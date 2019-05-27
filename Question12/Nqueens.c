@@ -1,7 +1,5 @@
 /*
-    @Author: Raghav Maheshwari
-    @Time: 09:36 P.M.
-    @Topic: N Queens Problem
+    
 
     Algorithm: 
         1. Sabse pehle hum, NqueenSolProb function mein 0 bhejenge because we are starting from there.
@@ -31,7 +29,7 @@ int noAttack(char board[100][100],int row,int col,int n){
     //Toh top left me, har baar x aur y kam hoga, as going to left
     int x = row;
     int y = col;
-    //Jab tak aap chessboard ke aandar ho
+    //Jab tak aap chessboard ke 
     while(x>=0 && y>=0){
         if(board[x][y] == 'Q'){
             return 0; //boldo attack hoga.
