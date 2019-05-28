@@ -21,11 +21,11 @@ int partition(int *Array,int start,int end){
     int pivot = Array[end];
     int partitionIndex = start;
     for(int i=start;i<=end-1;i++){
-        //If less than pivot, wap the partition index value and the current arrray value.
+        //If less than pivot, swap the partition index value and the current arrray value.
         if(Array[i]<=pivot){
             swap(&Array[i],&Array[partitionIndex]);
             partitionIndex++; //inc the partition index.
-        }
+        } 
     }
     //Swap the array with partition index and the end value, the pivot basicallly.
     swap(&Array[partitionIndex],&Array[end]);

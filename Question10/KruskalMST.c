@@ -2,7 +2,7 @@
 
     @Author: Raghav Maheshwari.
     @Date: 26th May, 2019
-    @Topic: ruskals Algorithm for MST
+    @Topic: Kruskals Algorithm for MST
 
 */
 #include<stdio.h>

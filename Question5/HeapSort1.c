@@ -39,10 +39,10 @@ void main(){
         Array[i] = rand()%1000;
     }
     clock_t start = clock();
+    //This will create a max heap.
     for(int i=n/2;i>=1;i--){
         heapify(Array,n,i);
     }
-
     for(int i=n;i>=1;i--){
         int temp = Array[1];
             Array[1] = Array[i];
