@@ -12,7 +12,7 @@ void dfs(int i){
     for(int v=1;v<=n;v++){
         if(arr[i][v] == 1 && visited[v] == 0){
             dfs(v);
-        }
+        } 
     }
 
 }
