@@ -16,7 +16,7 @@ start:
     mov ax,data
     mov ds,ax
 
-    mov al,0
+    mov al,00h
     mov dl,n
     dec dl ; as we take till n-1 only.
     mov ah,00
