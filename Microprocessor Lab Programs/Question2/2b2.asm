@@ -15,7 +15,7 @@ start:
     mov ds,ax ; sends ax to the data segment register.
 
     mov dx,cr ;move the control register value to dx
-    mov al,81h ;move to al the 81h for configuring the ports.
+    mov al,82h ;move to al the 81h for configuring the ports.
     out dx,al ;output port setup kiye.
 
     mov cx,15h ;this is 20 in decimal, so will go from 0 to 20.
