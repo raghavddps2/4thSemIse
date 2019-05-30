@@ -38,7 +38,7 @@ next :
     add cl,03
     jmp rotate
   startmov:
-    mov al,0f0h
+    mov al,00h
     mov dx,pa
 
 
